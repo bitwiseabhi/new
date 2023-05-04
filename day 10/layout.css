@@ -1,0 +1,47 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    color: white;
+
+}
+.box{
+    height: 100px;
+    width: 100px; 
+}
+
+.container{
+    /*height: 1000px;
+    width: 1400px;*/
+    display:flex;
+    flex-direction: row;
+   /* justify-content: center;
+    align-content: center; */
+    flex-wrap: wrap;
+   column-gap: 30px;
+   row-gap: 25px;
+}
+
+
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.magenta{
+    background-color: magenta;
+}
+
+.black{
+    background-color: black;
+}
+.teal{
+    background-color: teal;
+}
